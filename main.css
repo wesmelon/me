@@ -1,7 +1,26 @@
 body {
-  height: 100%;
-  text-align: center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  margin: 50px;
+  background-color: #3e3c3c;
+  font-family: Helvetica;
+  color: #ffffff;
+
+  display: flex;
+}
+
+a {
+  color: #ffffff;
+}
+
+.shelf {
+  display: flex;
+  flex-direction: row;
+}
+
+.book {
+  background-color: #383636;
+
+  display: flex;
+  margin: 10px;
+  width: 150px;
+  height: 200px;
 }
